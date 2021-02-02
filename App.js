@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import CalculatorComponent from './components/calculator';
+import CalculatorComponent from './vk1/components/calculator';
 
 export default function App() {
   return (
