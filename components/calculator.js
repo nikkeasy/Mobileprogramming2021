@@ -8,16 +8,21 @@ import { Alert } from "react-native";
 
 
 
+
 const CalculatorComponent = () => {
+    
     const [value1, onChangeText1] = React.useState("")
     const [value2, onChangeText2] = React.useState("")
 
+    let a = parseInt(value1); 
+    let b = parseInt(value2);
+
     const buttonPressed1 = () => {
-        Alert.alert('The answer is: ' + (value1 + value2))
+        Alert.alert('The answer is: ' + (a + b))
     }
 
     const buttonPressed2 = () => {
-        Alert.alert('The answer is: ' + (value1 - value2))
+        Alert.alert('The answer is: ' + (a - b))
     }
     
 
