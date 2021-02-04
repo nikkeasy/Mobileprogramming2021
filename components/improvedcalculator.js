@@ -56,8 +56,7 @@ export default function ImprovedCalculator () {
         <Button title="-" onPress={() => calculation('-')}> </Button> 
     </View>
 
-    <Text> History:  </Text> <br/> 
-    <FlatList data={result}> </FlatList>
+    
     </View>
    );
 };
